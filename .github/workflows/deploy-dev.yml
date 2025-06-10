@@ -30,6 +30,7 @@ jobs:
           script: |
             docker login -u ${{ secrets.DOCKERHUB_USERNAME }} -p ${{ secrets.DOCKERHUB_PASSWORD }}
             docker pull ductran201/my-portfolio:v0
-            docker stop prod-my-portfolio
-            docker rm prod-my-portfolio
-            docker run -dp 3005:4173 --name prod-my-portfolio ductran201/my-portfolio:v0
+            docker stop my-portfolio
+            docker rm my-portfolio
+            docker run -dp 3005:4173 --name my-portfolio ductran201/my-portfolio:v0
+            docker image prune -f
