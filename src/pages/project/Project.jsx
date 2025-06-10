@@ -56,7 +56,7 @@ export default function Project() {
       frontend: ["SCSS", "React"],
       backend: "None",
       source: "https://github.com/Ductran201/My_Portfolio",
-      preview: "https://my-portfolio-eight-teal-37.vercel.app/",
+      preview: "https://trantrongduc.io.vn/",
       tags: ["reactjs", "animation", "portfolio"],
     },
     {
@@ -70,7 +70,7 @@ export default function Project() {
       frontend: ["ReactJs", "Tailwind Css", "Ant Design", "MUI Material"],
       backend: "SpringBoot,Spring Security, API, mySQL",
       source: "https://github.com/Ductran201/SuitWeb",
-      // preview: "",
+      preview: "https://shop.trantrongduc.io.vn/",
       video: "",
       tags: [
         "reactjs",
