@@ -32,4 +32,4 @@ jobs:
             docker pull ductran201/my-portfolio:v0
             docker stop prod-my-portfolio
             docker rm prod-my-portfolio
-            docker run -dp 5173:5173 --name prod-my-portfolio ductran201/my-portfolio:v0
+            docker run -dp 3005:4173 --name prod-my-portfolio ductran201/my-portfolio:v0
