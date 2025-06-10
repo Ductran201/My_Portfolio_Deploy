@@ -55,7 +55,7 @@ export default function Project() {
       role: "Main developer",
       frontend: ["SCSS", "React"],
       backend: "None",
-      source: "https://github.com/Ductran201/My_Portfolio",
+      source: "https://github.com/Ductran201/My_Portfolio_Deploy",
       preview: "https://trantrongduc.io.vn/",
       tags: ["reactjs", "animation", "portfolio"],
     },
@@ -69,7 +69,7 @@ export default function Project() {
       role: "Main developer",
       frontend: ["ReactJs", "Tailwind Css", "Ant Design", "MUI Material"],
       backend: "SpringBoot,Spring Security, API, mySQL",
-      source: "https://github.com/Ductran201/SuitWeb",
+      // source: "https://github.com/Ductran201/SuitWeb",
       preview: "https://shop.trantrongduc.io.vn/",
       video: "",
       tags: [
